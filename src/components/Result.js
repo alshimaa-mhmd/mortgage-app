@@ -15,7 +15,7 @@ function Result(){
         </p>
         <br />
 
-        <div className="bg-[#0e2431] border-t-4 border-[#d9da31] rounded-md p-8 xl:h-[60%]">
+        <div className="bg-[#0e2431] border-t-4 border-[#d9da31] rounded-md p-8 xl:h-[70%]">
             <h3 className="text-slate-400 font-semibold mb-8 text-[14px] sm:text-[25px]">Your monthly repayments</h3>
             <span className="text-[#d9da31] text-[30px] sm:text-6xl font-semibold leading-8">
                 €{selected === "repayments" && roundedPayment}
